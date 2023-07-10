@@ -2,10 +2,9 @@ Bool = 0
 num = 0
 div = 2
 while Bool == 0:
-    num = input("Gimme Number:")
+    num = input("Number to be checked: ")
     try:
         int(num)
-        print("input valid")
         Bool = 1
     except:
         Bool = 0
