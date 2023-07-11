@@ -11,10 +11,10 @@ while Bool == 0:
 num = int(num)
 while num%div != 0 and num/div > 2:
     div+= 1
-if num%div == 0:
-    print("composite")
+if num%div == 0 and num != 2:
+    print(num, "is composite")
 else:
-    print("prime")
+    print(num, "is prime")
         
         
     
